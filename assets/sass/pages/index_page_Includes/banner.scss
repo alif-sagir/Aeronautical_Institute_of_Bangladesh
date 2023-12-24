@@ -15,6 +15,9 @@
         position: absolute;
         left: 0px;
         position: fixed;
+        top: calc(50vh - 108px);
+        z-index: 9;
+
         ul{
             border: $border;
             gap: 12px;
@@ -55,15 +58,46 @@
             background-repeat: no-repeat;
             background-position: bottom right;
             height: calc(100vh - 200px);
+            @include xs{
+                // height: calc(100vh - -30px);
+                min-height: 630px;
+            }
+            @include sm{
+                height: calc(100vh - 0px);
+            }
+            @include md{
+                height: calc(100vh - 80px);
+            }
             .banner_area_all_item {
                 border: $border;
                 align-items: center;
                 display: flex;
                 height: 100%;
+                @include xs{
+                    align-items: unset;
+                }
+                @include sm{
+                    align-items: unset;
+                }
+                @include md{
+                    align-items: unset;
+                }
                 .left_area {
                     border: $border;
                     padding-left: 60px;
                     width: 740px;
+                    @include xs{
+                       padding-top: 40px;
+                    }
+                    @include sm{
+                       padding-top: 50px;
+                    }
+                    @include md{
+                       padding-top: 80px;
+                    }
+                    @include lg{
+                       width: 450px;
+                    }
                     .title_text_area {
                         border: $border;
                         .title_text {
@@ -72,6 +106,18 @@
                             font-family: $font_SemiBold;
                             font-size: 35px;
                             color: $black;
+                            @include xs{
+                                font-size: 22px;
+                            }
+                            @include sm{
+                                font-size: 22px;
+                            }
+                            @include md{
+                                font-size: 28px;
+                            }
+                            @include lg{
+                                font-size: 28px;
+                            }
                             .color_text{
                                 color: $light_red;
                             }

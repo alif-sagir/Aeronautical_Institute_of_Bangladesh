@@ -6,6 +6,12 @@
     .choose_us_area_content {
         border: $border;
         display: flex;
+        @include xs{
+            display: block;
+        }
+        @include sm{
+            display: block;
+        }
         // left_area start
         .left_area {
             border: $border;
@@ -31,6 +37,14 @@
             border: $border;
             flex: 1;
             margin-left: 20px;
+            @include xs{
+                margin-left: unset;
+                margin-top: 30px;
+            }
+            @include sm{
+                margin-left: unset;
+                margin-top: 30px;
+            }
             .video_area_content {
                 border: $border;
                 .video_area {

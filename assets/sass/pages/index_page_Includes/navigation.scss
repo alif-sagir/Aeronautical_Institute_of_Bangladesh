@@ -31,27 +31,167 @@
             border-radius: 30px;
             background-color: $off_white;
             padding: 0px 20px;
+            @include xs {
+                // position: relative;
+            }
+            @include sm {
+                // position: relative;
+            }
+            @include md {
+                // position: relative;
+            }
+            @include lg {
+                // position: relative;
+            }
             ul {
                 border: $border;
                 display: flex;
                 align-items: center;
                 gap: 20px;
+                @include xs {
+                    display: block;
+                    position: fixed;
+                    top: 98px;
+                    right: 0px;
+                    background-color: $brand_color;
+                    padding: 10px 20px;
+                    border-radius: 2px;
+                    
+                    width: 70%;
+                    opacity: 0;
+                    visibility: hidden;
+                    left: -300px;
+                    transition-duration: 0.4s;
+                }
+                @include sm {
+                    display: block;
+                    position: fixed;
+                    top: 98px;
+                    right: 0px;
+                    background-color: $brand_color;
+                    padding: 10px 20px;
+                    border-radius: 2px;
 
+                    width: 70%;
+                    opacity: 0;
+                    visibility: hidden;
+                    left: -300px;
+                    transition-duration: 0.4s;
+                }
+                @include md {
+                    display: block;
+                    position: fixed;
+                    top: 98px;
+                    right: 0px;
+                    background-color: $brand_color;
+                    padding: 10px 20px;
+                    border-radius: 2px;
+                    
+                    width: 70%;
+                    opacity: 0;
+                    visibility: hidden;
+                    left: -300px;
+                    transition-duration: 0.4s;
+                }
+                @include lg {
+                    display: block;
+                    position: fixed;
+                    top: 98px;
+                    right: 0px;
+                    background-color: $brand_color;
+                    padding: 10px 20px;
+                    border-radius: 2px;
+                    
+                    width: 70%;
+                    opacity: 0;
+                    visibility: hidden;
+                    left: -300px;
+                    transition-duration: 0.4s;
+                }
+               .exit_width{
+                border: $border;
+                width: 30%;
+                background-color: rgba(253, 178, 178, 0.335);
+               }
                 li {
                     border: $border;
+
                     .nav_text {
                         border: $border;
                         font-size: 16px;
                         color: $black;
                         font-weight: bold;
                         padding: 14px 5px;
-                       transition-duration: .4s;
-                        &:hover{
+                        transition-duration: 0.4s;
+                        @include xs {
+                            color: $white;
+                        }
+                        @include sm {
+                            color: $white;
+                        }
+                        @include md{
+                            color: $white;
+                        }
+                        @include lg {
+                            color: $white;
+                        }
+                        &:hover {
                             color: $brand_color;
                         }
                     }
                 }
             }
+            // active start
+            .activee {
+                opacity: 1;
+                visibility: visible;
+                left: 0px;
+            }
+            // active end
+            // menu_ber start
+            .menu_ber {
+                border: $border;
+                align-items: center;
+                display: none;
+                
+                @include xs {
+                    padding: 10px 0px;
+                    display: flex;
+                }
+                @include sm {
+                    padding: 10px 0px;
+                    display: flex;
+                }
+                @include md {
+                    padding: 10px 0px;
+                    display: flex;
+                }
+                @include lg {
+                    padding: 10px 0px;
+                    display: flex;
+                }
+                .menu_ber_button {
+                    border: $border;
+                    @include xs {
+                        background-color: transparent;
+                    }
+                    @include sm {
+                        background-color: transparent;
+                    }
+                    @include md {
+                        background-color: transparent;
+                    }
+                    @include lg {
+                        background-color: transparent;
+                    }
+                    i {
+                        border: $border;
+                        font-size: 22px;
+                        color: $brand_color;
+                    }
+                }
+            }
+            // menu_ber end
         }
     }
 }

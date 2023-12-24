@@ -6,12 +6,17 @@
     .news_and_notice_area_content {
         border: $border;
         display: flex;
-
+@include xs{
+    display: block;
+}
         // news_area start
         .news_area {
             border: $border;
             flex: 1;
             margin-right: 20px;
+            @include xs{
+                margin-right: unset;
+            }
             .area_title {
                 background-color: $brand_color;
                 padding: 7px 0px;
@@ -31,6 +36,9 @@
                     display: flex;
                     padding: 10px;
                     background-color: $off_white;
+                    @include xs{
+                        display: block;
+                    }
                     .image_area {
                         border: $border;
                         width: 180px;
@@ -157,6 +165,9 @@
                     display: flex;
                     background-color: $off_white;
                     padding: 15px;
+                    @include xs{
+                        display: block;
+                    }
                     &:hover {
                         .date_area {
                             background-color: $brand_color;
