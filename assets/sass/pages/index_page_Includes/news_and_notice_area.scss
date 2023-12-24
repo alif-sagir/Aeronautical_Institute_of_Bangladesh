@@ -1,0 +1,200 @@
+// news_and_notice_area start
+.news_and_notice_area {
+    border: $border;
+    margin: 80px 0px;
+
+    .news_and_notice_area_content {
+        border: $border;
+        display: flex;
+
+        // news_area start
+        .news_area {
+            border: $border;
+            flex: 1;
+            margin-right: 20px;
+            .area_title {
+                background-color: $brand_color;
+                padding: 7px 0px;
+                border-radius: 3px;
+                .title_text {
+                    color: $white;
+                }
+            }
+            .news_all_item {
+                border: $border;
+                gap: 15px;
+                display: grid;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                .news_item {
+                    border: $border;
+                    display: flex;
+                    padding: 10px;
+                    background-color: $off_white;
+                    .image_area {
+                        border: $border;
+                        width: 180px;
+                        height: 130px;
+                        margin-right: 15px;
+
+                        img {
+                            border: $border;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            border-radius: 3px;
+                        }
+                    }
+                    .title_and_description_area {
+                        border: $border;
+                        flex: 1;
+                        .title_area {
+                            border: $border;
+                            .title_text {
+                                border: $border;
+                                font-size: 22px;
+                                // font-family: $font_Medium;
+                                font-family: $font_SemiBold;
+                                color: $black;
+                            }
+                        }
+                        .description_area {
+                            border: $border;
+                            margin-top: 10px;
+                            .description_text {
+                                border: $border;
+                                font-size: 16px;
+                                font-family: $font_Medium;
+                                color: $black;
+                                .read_more_area {
+                                    border: $border;
+                                    .read_more_text {
+                                        border: $border;
+                                        font-size: 16px;
+                                        color: $brand_color;
+                                        transition-duration: 0.4s;
+                                        &:hover {
+                                            color: $deep_red;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .top_item {
+                }
+                .bottom_item_all {
+                    border: $border;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 15px;
+                    .bottom_item {
+                        width: 306px;
+                        .image_area {
+                            width: 90px;
+                            height: 70px;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                        .title_and_description_area {
+                            .title_area {
+                                .title_text {
+                                    font-size: 14px;
+                                    // font-family: $font_Medium;
+                                    font-family: $font_SemiBold;
+                                    color: $black;
+                                }
+                            }
+                            .description_area {
+                                .description_text {
+                                    font-size: 12px;
+                                    font-family: $font_Medium;
+                                    color: $black;
+                                    .read_more_area {
+                                        .read_more_text {
+                                            font-size: 12px;
+                                            color: $brand_color;
+                                            transition-duration: 0.4s;
+                                            &:hover {
+                                                color: $deep_red;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // news_area end
+        // notice_area start
+        .notice_area {
+            border: $border;
+            flex: 1;
+            margin-left: 20px;
+            .area_title {
+                background-color: $brand_color;
+                padding: 7px 0px;
+                border-radius: 3px;
+                .title_text {
+                    color: $white;
+                }
+            }
+            .all_notice_area {
+                border: $border;
+                gap: 15px;
+                display: grid;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                // date_and_title_area start
+                .date_and_title_area {
+                    border: $border;
+                    display: flex;
+                    background-color: $off_white;
+                    padding: 15px;
+                    &:hover {
+                        .date_area {
+                            background-color: $brand_color;
+                        }
+                    }
+                    .date_area {
+                        border: $border;
+                        width: 160px;
+                        background-color: $deep_red;
+                        gap: 3px;
+                        display: grid;
+                        padding: 10px 0px;
+                        margin-right: 15px;
+                        border-radius: 3px;
+                        transition-duration: 0.4s;
+                        .date_text {
+                            border: $border;
+                            font-family: $font_SemiBold;
+                            font-size: 14px;
+                            color: $white;
+                            text-align: center;
+                        }
+                    }
+                    .title_area {
+                        border: $border;
+                        flex: 1;
+                        .title_text {
+                            border: $border;
+                            font-family: $font_Medium;
+                            font-size: 16px;
+                            color: $black;
+                        }
+                    }
+                }
+                // date_and_title_area end
+            }
+        }
+        // notice_area end
+    }
+}
+// news_and_notice_area end

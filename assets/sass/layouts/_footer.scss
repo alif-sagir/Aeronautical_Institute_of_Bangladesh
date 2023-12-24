@@ -1,0 +1,183 @@
+// footer_area start
+.footer_area {
+    border: $border;
+    background-color: $brand_color;
+    padding: 80px 0px;
+    @include xs {
+        margin-top: 50px;
+    }
+    .footer_area_content {
+        border: $border;
+        // footer_logo_area start
+        .footer_logo_area {
+            border: $border;
+            justify-content: center;
+            display: flex;
+            a {
+                border: $border;
+                img {
+                    border: $border;
+                    display: block;
+                    margin: auto;
+                }
+                .logo_title {
+                    border: $border;
+                    display: block;
+                    font-size: 20px;
+                    font-family: $font_SemiBold;
+                    color: $off_white;
+                    color: blue;
+                    color: $white;
+                    margin-top: 20px;
+                    text-align: center;
+                }
+            }
+        }
+        // footer_logo_area end
+        
+        // importent_link_area start
+        .area_title {
+            border: $border;
+            margin-bottom: 25px;
+            @include xs {
+                margin-top: 40px;
+            }
+            @include sm {
+                margin-top: 40px;
+            }
+            @include md {
+                margin-top: 40px;
+            }
+            .area_title_text {
+                border: $border;
+                color: $white;
+                font-size: 25px;
+            }
+        }
+        .importent_link_area {
+            border: $border;
+            margin-top: 30px;
+            ul {
+                border: $border;
+                gap: 20px;
+                display: grid;
+                li {
+                    border: $border;
+                    a {
+                        border: $border;
+                        font-size: 16px;
+                        font-family: $font_Medium;
+                        color: $footer_off_white;
+                        transition-duration: 0.4s;
+                        &:hover {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+        // importent_link_area end
+
+        // contact area start
+        .contact_area {
+            border: $border;
+            margin-top: 30px;
+            // adddress_area start
+            .adddress_area {
+                border: $border;
+                .adddress_text {
+                    border: $border;
+                    font-size: 16px;
+                    font-family: $font_Medium;
+                    color: $white;
+                }
+            }
+            // adddress_area end
+            // phone_title_and_number area start
+            .title_and_content {
+                border: $border;
+                display: flex;
+
+                .f_title_area {
+                    border: $border;
+                    .title_text {
+                        border: $border;
+                        font-size: 16px;
+                        font-family: $font_Medium;
+                        color: $white;
+                    }
+                }
+                .f_content_area {
+                    border: $border;
+                    .content_text {
+                        border: $border;
+                        font-size: 16px;
+                        font-family: $font_Medium;
+                        color: $footer_off_white;
+                        margin-left: 12px;
+                        transition-duration: 0.4s;
+                        &:hover {
+                            color: $white;
+                        }
+                    }
+                    .f_c_number {
+                        display: block;
+                    }
+                    .email_text {
+                    }
+                }
+                .phone_number {
+                    gap: 10px;
+                    display: grid;
+                }
+            }
+            .phone_title_and_number {
+                margin: 20px 0px;
+            }
+            // phone_title_and_number area end
+        }
+        // contact area end
+        // map area start
+        iframe {
+            width: 100%;
+            height: 200px;
+        }
+        // map area end
+    }
+}
+
+// copyright_area start
+.copyright_area {
+    border: $border;
+    background-color: #00528d;
+    .copyright_area_content {
+        border: $border;
+        text-align: center;
+        padding: 20px 0px;
+        .copyright_text {
+            border: $border;
+            color: $white;
+            // font-size: 16px;
+            // font-family: $font_medium;
+            a {
+                border: $border;
+                color: $footer_off_white;
+                // font-size: 16px;
+                // font-family: $font_medium;
+                transition-duration: 0.4s;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+        .text {
+            font-size: 16px;
+            font-family: $font_Medium;
+            @include xs {
+                font-size: 11px;
+            }
+        }
+    }
+}
+// copyright_area end
+// footer_area end

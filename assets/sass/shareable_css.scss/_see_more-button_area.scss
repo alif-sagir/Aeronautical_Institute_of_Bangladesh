@@ -1,0 +1,21 @@
+// see_more-button_area start
+.see_more-button_area{
+    border: $border;
+    text-align: center;
+    .see_more-button{
+        border: $border;
+        font-family: $font_SemiBold;
+        font-size: 14px;
+        background-color: $brand_color;
+        color: $white;
+        padding: 11px 20px;
+        border-radius: 3px;
+        border: 1px solid $brand_color;
+        transition-duration: .4s;
+        &:hover{
+            background-color: transparent;
+            color: $brand_color;
+        }
+    }
+}
+// see_more-button_area end

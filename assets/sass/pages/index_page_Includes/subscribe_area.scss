@@ -1,0 +1,150 @@
+// subscribe_area start
+.subscribe_area {
+    border: $border;
+    padding: 80px 0px 160px 0px;
+
+    .subscribe_area_content {
+        border: $border;
+        display: flex;
+
+        // left_area start
+        .left_area {
+            border: $border;
+            flex: 1;
+            margin-right: 20px;
+
+            .subscribe_text_area {
+                border: $border;
+                justify-content: end;
+                display: flex;
+                align-items: center;
+                height: 100%;
+                .subscribe_text_and_image_area {
+                    border: $border;
+                    width: 230px;
+                    position: relative;
+                    .subscribe_text {
+                        border: $border;
+                        font-size: 22px;
+                        font-family: $font_SemiBold;
+                        color: $brand_color;
+                        
+                    }
+                    .image_area {
+                        border: $border;
+                        position: absolute;
+                        top: -35px;
+                        left: -200px;
+                        img {
+                            border: $border;
+                        }
+                    }
+                }
+            }
+        }
+        // left_area end
+
+        // right_area start
+        .right_area {
+            border: $border;
+            flex: 1;
+            justify-content: center;
+            display: grid;
+            align-items: center;
+            border-left: 2px solid $brand_color;
+            padding-left: 20px;
+
+            .right_area_content {
+                .form-area {
+                    border: $border;
+                    justify-content: center;
+                    display: flex;
+                    form {
+                        border: $border;
+                        text-align: center;
+                        input {
+                            border: $border;
+                            width: 300px;
+                            font-size: 16px;
+                            color: $black;
+                            outline: 0;
+                            padding: 6px 10px;
+                            border: 1px solid $black;
+                            display: block;
+                            border-radius: 3px;
+                        }
+                        .subscribe_button {
+                            border: $border;
+                            width: 300px;
+                            font-size: 16px;
+                            border-radius: 3px;
+                            color: $white;
+                            padding: 6px 10px;
+                            border: 1px solid $brand_color;
+                            background-color: $brand_color;
+                            margin-top: 15px;
+                            transition-duration: 0.4s;
+                            &:hover {
+                                background-color: transparent;
+                                color: $brand_color;
+                            }
+                        }
+                    }
+                }
+
+                .social_media_group_area {
+                    border: $border;
+                    margin-top: 30px;
+
+                    ul {
+                        border: $border;
+                        display: flex;
+                        gap: 17px;
+                        li {
+                            border: $border;
+                            .icon_and_social_media_group_name {
+                                border: $border;
+                                align-items: center;
+                                display: flex;
+                                padding: 10px 15px;
+                                background-color: #0070c040;
+                                border: 1px solid transparent;
+                                border-radius: 3px;
+                                transition-duration: 0.4s;
+                                &:hover {
+                                    background-color: transparent;
+                                    border-color: $brand_color;
+                                }
+                                .icon_area {
+                                    border: $border;
+                                    width: 25px;
+                                    height: 25px;
+                                    align-items: center;
+                                    display: inline-flex;
+                                    justify-content: center;
+                                    border-radius: 50%;
+                                    background-color: $brand_color;
+                                    margin-right: 6px;
+
+                                    i {
+                                        border: $border;
+                                        font-size: 15px;
+                                        color: $white;
+                                    }
+                                }
+                                .social_media_group_name {
+                                    border: $border;
+                                    font-size: 16px;
+                                    color: $brand_color;
+                                    // color: $white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // right_area end
+    }
+}
+// subscribe_area end

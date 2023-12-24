@@ -1,0 +1,25 @@
+// area_title start
+.area_title {
+    border: $border;
+    text-align: center;
+    .title_text {
+        border: $border;
+    //    font-family: $font_Bold;
+       font-family: $font_SemiBold;
+       font-size: 35px;
+       color: $brand_color;
+    }
+}
+// area_title end
+// area_title_white start
+.area_title_white {
+    border: $border;
+    .title_text {
+        border: $border;
+    //    font-family: $font_Bold;
+       font-family: $font_SemiBold;
+       font-size: 30px;
+       color: $white;
+    }
+}
+// area_title_white end

@@ -1,0 +1,95 @@
+// banner_area start
+.banner_area {
+    border: $border;
+    margin-top: 30px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    // social_media_area start
+    .social_media_area{
+        border: $border;
+        background-color: $deep_red;
+        display: inline-block;
+        padding: 30px 10px 30px 5px;
+        border-radius: 0px 18px 18px 0px;
+        position: absolute;
+        left: 0px;
+        ul{
+            border: $border;
+            gap: 12px;
+            display: grid;
+        
+            li{
+                border: $border;
+                .social_media{
+                    border: $border;
+                    width: 30px;
+                    height: 30px;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    &:hover{
+                        i{
+                            color: $brand_color;
+                        }
+                    }
+                
+                    i{
+                        border: $border;
+                        font-size: 20px;
+                        color: $white;
+                        transition-duration: .4s;
+                    }
+                }
+            }
+        }
+    }
+    // social_media_area end
+    .banner_area_content {
+        border: $border;
+        background-color: $off_white;
+        border-radius: 30px;
+        .banner_area_item_content {
+            border: $border;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            height: calc(100vh - 200px);
+            .banner_area_all_item {
+                border: $border;
+                align-items: center;
+                display: flex;
+                height: 100%;
+                .left_area {
+                    border: $border;
+                    padding-left: 60px;
+                    width: 740px;
+                    .title_text_area {
+                        border: $border;
+                        .title_text {
+                            border: $border;
+                            // font-family: $font_Bold;
+                            font-family: $font_SemiBold;
+                            font-size: 35px;
+                            color: $black;
+                            .color_text{
+                                color: $light_red;
+                            }
+                        }
+                    }
+                    .discription_text_area {
+                        border: $border;
+                        margin-top: 20px;
+
+                        .discription_text {
+                            border: $border;
+                            font-family: $font_Medium;
+                            font-size: 18px;
+                            color: $brand_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// banner_area end
