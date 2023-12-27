@@ -26,7 +26,7 @@
                     .subscribe_text {
                         border: $border;
                         font-size: 22px;
-                        font-family: $font_SemiBold;
+                        font-family: $font_Bold;
                         color: $brand_color;
                         
                     }
@@ -69,9 +69,10 @@
                             color: $black;
                             outline: 0;
                             padding: 6px 10px;
-                            border: 1px solid $black;
+                            // border: 1px solid $black;
                             display: block;
                             border-radius: 3px;
+                            background-color: #e6f9ea;
                         }
                         .subscribe_button {
                             border: $border;
@@ -80,8 +81,8 @@
                             border-radius: 3px;
                             color: $white;
                             padding: 6px 10px;
-                            border: 1px solid $brand_color;
-                            background-color: $brand_color;
+                            border: 1px solid $light_red;
+                            background-color: $light_red;
                             margin-top: 15px;
                             transition-duration: 0.4s;
                             &:hover {

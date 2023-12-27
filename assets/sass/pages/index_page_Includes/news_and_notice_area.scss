@@ -62,7 +62,7 @@
                                 border: $border;
                                 font-size: 22px;
                                 // font-family: $font_Medium;
-                                font-family: $font_SemiBold;
+                                font-family: $font_Bold;
                                 color: $black;
                             }
                         }
@@ -113,7 +113,7 @@
                                 .title_text {
                                     font-size: 14px;
                                     // font-family: $font_Medium;
-                                    font-family: $font_SemiBold;
+                                    font-family: $font_Bold;
                                     color: $black;
                                 }
                             }
@@ -185,7 +185,7 @@
                         transition-duration: 0.4s;
                         .date_text {
                             border: $border;
-                            font-family: $font_SemiBold;
+                            font-family: $font_Bold;
                             font-size: 14px;
                             color: $white;
                             text-align: center;

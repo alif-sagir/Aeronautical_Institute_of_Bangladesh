@@ -52,7 +52,7 @@
                         display: flex;
                         .text {
                             border: $border;
-                            font-family: $font_SemiBold;
+                            font-family: $font_Bold;
                             font-size: 22px;
                             line-height: 22px;
                             color: #144f61;
@@ -145,7 +145,7 @@
                         display: block;
                         font-size: 22px;
                         line-height: 22px;
-                        font-family: $font_SemiBold;
+                        font-family: $font_Bold;
                         color: #144f61;
                     }
                     input {
@@ -176,7 +176,7 @@
                     border: $border;
                     width: 100%;
                     font-size: 18px;
-                    font-family: $font_SemiBold;
+                    font-family: $font_Bold;
                     color: white;
                     background-color: #144f61;
                     padding: 5px 0px;

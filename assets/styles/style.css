@@ -1,11 +1,5 @@
 /* color veriable */
 /* dark_mode_color */
-/* font name */
-/* 400 */
-/* 500 */
-/* 600 */
-/* 700 */
-/* 800 */
 /* border */
 /* responsive_desine_mixin start*/
 /* responsive_desine_mixin end*/
@@ -14,47 +8,35 @@
   src: url("../fonts/bangla_font/TiroBangla-Regular.ttf");
 }
 @font-face {
-  font-family: "Poppins-Thin";
-  src: url("../fonts/Poppins-Thin.ttf");
+  font-family: "Roboto-Thin";
+  src: url("../fonts/Roboto/Roboto-Thin.ttf");
 }
 @font-face {
-  font-family: "Poppins-ExtraLight";
-  src: url("../fonts/Poppins-ExtraLight.ttf");
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto/Roboto-Light.ttf");
 }
 @font-face {
-  font-family: "Poppins-Light";
-  src: url("../fonts/Poppins-Light.ttf");
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
-  font-family: "Poppins-Regular";
-  src: url("../fonts/Poppins-Regular.ttf");
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto/Roboto-Medium.ttf");
 }
 @font-face {
-  font-family: "Poppins-Medium";
-  src: url("../fonts/Poppins-Medium.ttf");
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
 }
 @font-face {
-  font-family: "Poppins-SemiBold";
-  src: url("../fonts/Poppins-SemiBold.ttf");
-}
-@font-face {
-  font-family: "Poppins-Bold";
-  src: url("../fonts/Poppins-Bold.ttf");
-}
-@font-face {
-  font-family: "Poppins-ExtraBold";
-  src: url("../fonts/Poppins-ExtraBold.ttf");
-}
-@font-face {
-  font-family: "Poppins-Black";
-  src: url("../fonts/Poppins-Black.ttf");
+  font-family: "Roboto-Black";
+  src: url("../fonts/Roboto/Roboto-Black.ttf");
 }
 body {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  font-family: "Poppins-Regular";
+  font-family: "Roboto-Regular";
 }
 
 h1,
@@ -143,7 +125,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   display: block;
   font-size: 20px;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   color: #f2f2f2;
   color: blue;
   color: #ffffff;
@@ -189,7 +171,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .footer_area .footer_area_content .importent_link_area ul li a {
   border: 0px solid red;
   font-size: 16px;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
   color: rgba(255, 255, 255, 0.768627451);
   transition-duration: 0.4s;
 }
@@ -206,7 +188,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .footer_area .footer_area_content .contact_area .adddress_area .adddress_text {
   border: 0px solid red;
   font-size: 16px;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
   color: #ffffff;
 }
 .footer_area .footer_area_content .contact_area .title_and_content {
@@ -219,7 +201,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .footer_area .footer_area_content .contact_area .title_and_content .f_title_area .title_text {
   border: 0px solid red;
   font-size: 16px;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
   color: #ffffff;
 }
 .footer_area .footer_area_content .contact_area .title_and_content .f_content_area {
@@ -228,7 +210,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .footer_area .footer_area_content .contact_area .title_and_content .f_content_area .content_text {
   border: 0px solid red;
   font-size: 16px;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
   color: rgba(255, 255, 255, 0.768627451);
   margin-left: 12px;
   transition-duration: 0.4s;
@@ -249,6 +231,9 @@ html ::-webkit-scrollbar-thumb:hover {
 .footer_area .footer_area_content iframe {
   width: 100%;
   height: 200px;
+}
+.footer_area .footer_area_content .footer_title_text {
+  color: #fcee21;
 }
 
 .copyright_area {
@@ -274,7 +259,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .copyright_area .copyright_area_content .text {
   font-size: 16px;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
 }
 @media screen and (max-width: 575.9px) {
   .copyright_area .copyright_area_content .text {
@@ -288,7 +273,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .area_title .title_text {
   border: 0px solid red;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   font-size: 35px;
   color: #0070c0;
 }
@@ -303,7 +288,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .area_title_white .title_text {
   border: 0px solid red;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   font-size: 30px;
   color: #ffffff;
 }
@@ -319,7 +304,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .see_more-button_area .see_more-button {
   border: 0px solid red;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   font-size: 14px;
   background-color: #0070c0;
   color: #ffffff;
@@ -445,6 +430,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .navigation_area .navigation_area_content .nav_area ul li .nav_text {
   border: 0px solid red;
   font-size: 16px;
+  font-family: "Roboto-Regular";
   color: black;
   font-weight: bold;
   padding: 14px 5px;
@@ -589,7 +575,9 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   background-repeat: no-repeat;
   background-position: bottom right;
-  height: calc(100vh - 200px);
+  min-height: 550px;
+  align-items: center;
+  display: flex;
 }
 @media screen and (max-width: 575.9px) {
   .banner_area .banner_area_content .banner_area_item_content {
@@ -657,8 +645,9 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .banner_area .banner_area_content .banner_area_item_content .banner_area_all_item .left_area .title_text_area .title_text {
   border: 0px solid red;
-  font-family: "Poppins-SemiBold";
-  font-size: 35px;
+  font-family: "Roboto-Black";
+  font-weight: 600;
+  font-size: 30px;
   color: black;
 }
 @media screen and (max-width: 575.9px) {
@@ -690,9 +679,11 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .banner_area .banner_area_content .banner_area_item_content .banner_area_all_item .left_area .discription_text_area .discription_text {
   border: 0px solid red;
-  font-family: "Poppins-Medium";
-  font-size: 18px;
-  color: #0070c0;
+  font-family: "Roboto-Bold";
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+  line-height: 27px;
 }
 
 .course_area {
@@ -792,7 +783,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_area .course_area_content .course_card_area .card_item .card_text_area .text_area_title .title_text {
   border: 0px solid red;
   font-size: 22px;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   color: black;
 }
 @media screen and (max-width: 575.9px) {
@@ -834,18 +825,18 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   width: 9px;
   height: 9px;
-  background-color: #0070c0;
+  background-color: #009245;
   border-radius: 50%;
 }
 .course_area .course_area_content .course_card_area .card_item .card_text_area .card_list ul li .list_text {
   border: 0px solid red;
   font-size: 14px;
-  font-family: "Poppins-SemiBold";
-  color: #0070c0;
+  font-family: "Roboto-Bold";
+  color: black;
   transition-duration: 0.4s;
 }
 .course_area .course_area_content .course_card_area .card_item .card_text_area .card_list ul li .list_text:hover {
-  color: black;
+  color: #0070c0;
 }
 .course_area .course_area_content .course_card_area .card_item .card_text_area .card_list .card_button_area {
   position: absolute;
@@ -855,7 +846,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_area .course_area_content .course_card_area .card_item .card_text_area .card_list .card_button_area .card_button {
   font-size: 14px;
   line-height: 14px;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   color: #ffffff;
   background-color: #0070c0;
   border: 1px solid #0070c0;
@@ -892,6 +883,11 @@ html ::-webkit-scrollbar-thumb:hover {
   flex: 1;
   margin-right: 20px;
 }
+.choose_us_area .choose_us_area_content .left_area .title_text_edit {
+  border-bottom: 3px solid #0070c0;
+  display: table;
+  padding-bottom: 5px;
+}
 .choose_us_area .choose_us_area_content .left_area .discription_area {
   border: 0px solid red;
   gap: 20px;
@@ -902,7 +898,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   color: black;
   font-size: 16px;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
 }
 .choose_us_area .choose_us_area_content .right_area {
   border: 0px solid red;
@@ -923,6 +919,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .choose_us_area .choose_us_area_content .right_area .video_area_content {
   border: 0px solid red;
+  border: 6px solid #0070c0;
 }
 .choose_us_area .choose_us_area_content .right_area .video_area_content .video_area {
   border: 0px solid red;
@@ -949,13 +946,13 @@ html ::-webkit-scrollbar-thumb:hover {
   display: flex;
   justify-content: center;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #0070c0;
   transform: translateY(-50%) translateX(-50%);
 }
 .choose_us_area .choose_us_area_content .right_area .video_area_content .video_area .play_icon i {
   border: 0px solid red;
-  font-size: 20px;
-  color: #0070c0;
+  font-size: 25px;
+  color: #ffffff;
 }
 .choose_us_area .choose_us_area_content .right_area .video_area_content .video_description_area {
   border: 0px solid red;
@@ -966,7 +963,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   color: #ffffff;
   font-size: 16px;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
 }
 
 .news_and_notice_area {
@@ -1041,7 +1038,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .news_and_notice_area .news_and_notice_area_content .news_area .news_all_item .news_item .title_and_description_area .title_area .title_text {
   border: 0px solid red;
   font-size: 22px;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   color: black;
 }
 .news_and_notice_area .news_and_notice_area_content .news_area .news_all_item .news_item .title_and_description_area .description_area {
@@ -1051,7 +1048,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .news_and_notice_area .news_and_notice_area_content .news_area .news_all_item .news_item .title_and_description_area .description_area .description_text {
   border: 0px solid red;
   font-size: 16px;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
   color: black;
 }
 .news_and_notice_area .news_and_notice_area_content .news_area .news_all_item .news_item .title_and_description_area .description_area .description_text .read_more_area {
@@ -1086,12 +1083,12 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .news_and_notice_area .news_and_notice_area_content .news_area .news_all_item .bottom_item_all .bottom_item .title_and_description_area .title_area .title_text {
   font-size: 14px;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   color: black;
 }
 .news_and_notice_area .news_and_notice_area_content .news_area .news_all_item .bottom_item_all .bottom_item .title_and_description_area .description_area .description_text {
   font-size: 12px;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
   color: black;
 }
 .news_and_notice_area .news_and_notice_area_content .news_area .news_all_item .bottom_item_all .bottom_item .title_and_description_area .description_area .description_text .read_more_area .read_more_text {
@@ -1149,7 +1146,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .news_and_notice_area .news_and_notice_area_content .notice_area .all_notice_area .date_and_title_area .date_area .date_text {
   border: 0px solid red;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   font-size: 14px;
   color: #ffffff;
   text-align: center;
@@ -1160,7 +1157,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .news_and_notice_area .news_and_notice_area_content .notice_area .all_notice_area .date_and_title_area .title_area .title_text {
   border: 0px solid red;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
   font-size: 16px;
   color: black;
 }
@@ -1193,7 +1190,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .subscribe_area .subscribe_area_content .left_area .subscribe_text_area .subscribe_text_and_image_area .subscribe_text {
   border: 0px solid red;
   font-size: 22px;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   color: #0070c0;
 }
 .subscribe_area .subscribe_area_content .left_area .subscribe_text_area .subscribe_text_and_image_area .image_area {
@@ -1230,9 +1227,9 @@ html ::-webkit-scrollbar-thumb:hover {
   color: black;
   outline: 0;
   padding: 6px 10px;
-  border: 1px solid black;
   display: block;
   border-radius: 3px;
+  background-color: #e6f9ea;
 }
 .subscribe_area .subscribe_area_content .right_area .right_area_content .form-area form .subscribe_button {
   border: 0px solid red;
@@ -1241,8 +1238,8 @@ html ::-webkit-scrollbar-thumb:hover {
   border-radius: 3px;
   color: #ffffff;
   padding: 6px 10px;
-  border: 1px solid #0070c0;
-  background-color: #0070c0;
+  border: 1px solid #ff0000;
+  background-color: #ff0000;
   margin-top: 15px;
   transition-duration: 0.4s;
 }
@@ -1355,7 +1352,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .contact_page .contact_page_content .contact_area_left .content_area .content_area_icon_and_title .content_area_title .text {
   border: 0px solid red;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   font-size: 22px;
   line-height: 22px;
   color: #144f61;
@@ -1369,7 +1366,7 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #838383;
   transition-duration: 0.4s;
   font-size: 18px;
-  font-family: "Poppins-Regular";
+  font-family: "Roboto-Regular";
 }
 .contact_page .contact_page_content .contact_area_left .content_area .content_text .text:hover {
   color: #144f61;
@@ -1439,14 +1436,14 @@ html ::-webkit-scrollbar-thumb:hover {
   display: block;
   font-size: 22px;
   line-height: 22px;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   color: #144f61;
 }
 .contact_page .contact_page_content .contact_area_right form .form_item input {
   border: 0px solid red;
   font-size: 18px;
   line-height: 18px;
-  font-family: "Poppins-Medium";
+  font-family: "Roboto-Medium";
   color: #144f61;
   width: 100%;
   padding: 10px 10px 10px 0px;
@@ -1469,7 +1466,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   width: 100%;
   font-size: 18px;
-  font-family: "Poppins-SemiBold";
+  font-family: "Roboto-Bold";
   color: white;
   background-color: #144f61;
   padding: 5px 0px;

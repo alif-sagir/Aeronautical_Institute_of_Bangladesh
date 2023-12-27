@@ -24,7 +24,7 @@
                     border: $border;
                     display: block;
                     font-size: 20px;
-                    font-family: $font_SemiBold;
+                    font-family: $font_Bold;
                     color: $off_white;
                     color: blue;
                     color: $white;
@@ -143,6 +143,10 @@
             height: 200px;
         }
         // map area end
+
+        .footer_title_text{
+            color: #fcee21;
+        }
     }
 }
 

@@ -57,7 +57,11 @@
             border: $border;
             background-repeat: no-repeat;
             background-position: bottom right;
-            height: calc(100vh - 200px);
+            // height: calc(100vh - 200px);
+            min-height: 550px;
+            align-items: center;
+            display: flex;
+        
             @include xs{
                 // height: calc(100vh - -30px);
                 min-height: 630px;
@@ -103,8 +107,9 @@
                         .title_text {
                             border: $border;
                             // font-family: $font_Bold;
-                            font-family: $font_SemiBold;
-                            font-size: 35px;
+                            font-family: $font_Black;
+                            font-weight: 600;
+                            font-size: 30px;
                             color: $black;
                             @include xs{
                                 font-size: 22px;
@@ -129,9 +134,12 @@
 
                         .discription_text {
                             border: $border;
-                            font-family: $font_Medium;
-                            font-size: 18px;
-                            color: $brand_color;
+                            font-family: $font_Bold;
+                            font-weight: 600;
+                            font-size: 15px;
+                            color: $black;
+                            line-height: 27px;
+
                         }
                     }
                 }

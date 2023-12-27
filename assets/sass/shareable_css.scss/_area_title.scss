@@ -5,7 +5,7 @@
     .title_text {
         border: $border;
         //    font-family: $font_Bold;
-        font-family: $font_SemiBold;
+        font-family: $font_Bold;
         font-size: 35px;
         color: $brand_color;
         @include xs {
@@ -20,7 +20,7 @@
     .title_text {
         border: $border;
         //    font-family: $font_Bold;
-        font-family: $font_SemiBold;
+        font-family: $font_Bold;
         font-size: 30px;
         color: $white;
         @include xs {

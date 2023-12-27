@@ -17,6 +17,11 @@
             border: $border;
             flex: 1;
             margin-right: 20px;
+           .title_text_edit{
+            border-bottom: 3px solid $brand_color;
+            display: table;
+            padding-bottom: 5px
+           }
             .discription_area {
                 border: $border;
                 gap: 20px;
@@ -47,6 +52,7 @@
             }
             .video_area_content {
                 border: $border;
+                border: 6px solid $brand_color;
                 .video_area {
                     border: $border;
                     width: 100%;
@@ -74,12 +80,12 @@
                         display: flex;
                         justify-content: center;
                         border-radius: 50%;
-                    background-color: $white;
+                    background-color: $brand_color;
                         transform: translateY(-50%) translateX(-50%);
                         i{
                             border: $border;
-                            font-size: 20px;
-                            color: $brand_color;
+                            font-size: 25px;
+                            color: $white;
                         }
                     }
                 }
